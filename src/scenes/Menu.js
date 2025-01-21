@@ -4,9 +4,9 @@ class Menu extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('rocket', '../../assets/rocket.png')
-        this.load.image('spaceship', '../../assets/spaceship.png')
-        this.load.image('starfield', '../../assets/starfield.png')
+        this.load.image('rocket', './assets/rocket.png')
+        this.load.image('spaceship', './assets/spaceship.png')
+        this.load.image('starfield', './assets/starfield.png')
         // load spritesheet
         this.load.spritesheet('explosion', './assets/explosion.png', {
             frameWidth: 64,
